@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const theList = ['Learn React', 'Fake it till you make it!', 'Profit']
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App theList={theList}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
